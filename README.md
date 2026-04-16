@@ -173,7 +173,6 @@ Right-click → testng.xml → Run As → TestNG Suite
 ## ⚠️ Known Issues (Guru99 Demo Site)
 
 * Edit Account and Balance Enquiry may throw **HTTP 500 error**
-* Some validations behave inconsistently
 
 👉 These are handled gracefully using try-catch in tests.
 
