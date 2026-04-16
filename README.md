@@ -195,14 +195,6 @@ Vaishnavi
 
 ## 📌 Conclusion
 
-### Emoji for Conclusion
-
-📌
-
----
-
-## Conclusion
-
 This project implements a robust Selenium automation framework using the Page Object Model to test key banking functionalities. It ensures scalability and reliability through features like parallel execution, reporting, and error handling.
 
 ---
