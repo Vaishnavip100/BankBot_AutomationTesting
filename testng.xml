@@ -1,0 +1,33 @@
+<suite name="Automation Suite" parallel="classes" thread-count="2">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+        <listener class-name="listeners.RetryListener"/>
+    </listeners>
+
+    <test name="Login and Validation">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.ValidationTest"/>
+        </classes>
+    </test>
+
+    <test name="Customer Tests">
+        <classes>
+            <class name="tests.CustomerTest"/>
+        </classes>
+    </test>
+
+    <test name="Account Tests">
+        <classes>
+            <class name="tests.AccountTest"/>
+        </classes>
+    </test>
+
+    <test name="Fund Transfer Tests">
+        <classes>
+            <class name="tests.FundTransferTest"/>
+        </classes>
+    </test>
+
+</suite>

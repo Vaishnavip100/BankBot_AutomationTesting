@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Automation Suite</th></tr>
+<tr><td><a href="#t0">Login and Validation</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">48,622</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Customer Tests</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">43,913</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Account Tests</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">86,872</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Fund Transfer Tests</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">43,802</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">17</th><th class="num">0</th><th class="num attn">3</th><th class="num">0</th><th class="num">223,209</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login and Validation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">tests.LoginTest</td><td><a href="#m0">loginTest</a></td><td rowspan="4">1776347087287</td><td rowspan="4">1819</td></tr><tr class="passedeven"><td><a href="#m1">loginTest</a></td></tr><tr class="passedeven"><td><a href="#m2">loginTest</a></td></tr><tr class="passedeven"><td><a href="#m3">loginTest</a></td></tr><tr class="passedeven"><td><a href="#m4">verifyLogoutRedirectsToLoginPage</a></td><td rowspan="1">1776347113148</td><td rowspan="1">3083</td></tr><tr class="passedodd"><td rowspan="3">tests.ValidationTest</td><td><a href="#m5">verifyEmptyFieldValidation</a></td><td rowspan="1">1776347077928</td><td rowspan="1">3956</td></tr><tr class="passedodd"><td><a href="#m6">verifyFutureDateValidation</a></td><td rowspan="1">1776347086821</td><td rowspan="1">15395</td></tr><tr class="passedodd"><td><a href="#m7">verifyNonNumericValidation</a></td><td rowspan="1">1776347109779</td><td rowspan="1">3342</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Customer Tests &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">tests.CustomerTest</td><td><a href="#m8">verifyCreateCustomer</a></td><td rowspan="1">1776347119444</td><td rowspan="1">14448</td></tr><tr><th colspan="4">Customer Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.CustomerTest</td><td><a href="#m9">verifyCreateCustomer</a></td><td rowspan="1">1776347135771</td><td rowspan="1">4981</td></tr><tr class="passedeven"><td><a href="#m10">verifyDuplicateEmailError</a></td><td rowspan="1">1776347143829</td><td rowspan="1">7024</td></tr><tr class="passedeven"><td><a href="#m11">verifyEditCustomer</a></td><td rowspan="1">1776347153639</td><td rowspan="1">6868</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Account Tests &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="2">tests.AccountTest</td><td><a href="#m12">verifyEditAccount</a></td><td rowspan="2">1776347189691</td><td rowspan="2">14547</td></tr><tr class="retriedeven"><td><a href="#m13">verifyEditAccount</a></td></tr><tr><th colspan="4">Account Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.AccountTest</td><td><a href="#m14">verifyCreateAccount</a></td><td rowspan="1">1776347164312</td><td rowspan="1">6490</td></tr><tr class="passedeven"><td><a href="#m15">verifyEditAccount</a></td><td rowspan="1">1776347207146</td><td rowspan="1">34306</td></tr><tr class="passedeven"><td><a href="#m16">verifyInvalidCustomerIdAccountCreation</a></td><td rowspan="1">1776347244081</td><td rowspan="1">3365</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Fund Transfer Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.FundTransferTest</td><td><a href="#m17">verifyBalanceAfterTransfer</a></td><td rowspan="1">1776347250052</td><td rowspan="1">19716</td></tr><tr class="passedeven"><td><a href="#m18">verifyFundTransferSuccess</a></td><td rowspan="1">1776347272685</td><td rowspan="1">12400</td></tr><tr class="passedeven"><td><a href="#m19">verifyInvalidPayeeTransfer</a></td><td rowspan="1">1776347287668</td><td rowspan="1">3574</td></tr></tbody>
+</table>
+<h2>Login and Validation</h2><h3 id="m0">tests.LoginTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>invalidUser</td><td>wrongPass</td><td>error</td><td>invalid credentials</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.LoginTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>mngr659075</td><td>sagypYs</td><td>success</td><td>valid login</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.LoginTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td></td><td></td><td>blank</td><td>both fields empty</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.LoginTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>mngr123456</td><td></td><td>blank</td><td>password empty</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.LoginTest#verifyLogoutRedirectsToLoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.ValidationTest#verifyEmptyFieldValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.ValidationTest#verifyFutureDateValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.ValidationTest#verifyNonNumericValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Customer Tests</h2><h3 id="m8">tests.CustomerTest#verifyCreateCustomer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[@class=&apos;heading3&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\91996\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64651}, goog:processID: 22976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64651/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1020cefba1de6a36080d8521d0edd56d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at base.BasePage.waitForVisibility(BasePage.java:21)
+	at base.BasePage.getText(BasePage.java:39)
+	at pages.NewCustomerPage.isCustomerCreated(NewCustomerPage.java:59)
+	at tests.CustomerTest.verifyCreateCustomer(CustomerTest.java:26)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.CustomerTest#verifyCreateCustomer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.CustomerTest#verifyDuplicateEmailError</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.CustomerTest#verifyEditCustomer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Account Tests</h2><h3 id="m12">tests.AccountTest#verifyEditAccount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //td[text()=&apos;Customer ID&apos;]/following-sibling::td (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\91996\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61801}, goog:processID: 8128, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61801/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a0b622b1a64bb7e9d4bb71d4f1f735b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at base.BasePage.waitForVisibility(BasePage.java:21)
+	at base.BasePage.getText(BasePage.java:39)
+	at pages.NewCustomerPage.getCustomerId(NewCustomerPage.java:63)
+	at tests.AccountTest.verifyEditAccount(AccountTest.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">tests.AccountTest#verifyEditAccount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //td[text()=&apos;Customer ID&apos;]/following-sibling::td (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\91996\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50408}, goog:processID: 22976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50408/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81cb77527bba99bfe0c92bebb627bb06
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at base.BasePage.waitForVisibility(BasePage.java:21)
+	at base.BasePage.getText(BasePage.java:39)
+	at pages.NewCustomerPage.getCustomerId(NewCustomerPage.java:63)
+	at tests.AccountTest.verifyEditAccount(AccountTest.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">tests.AccountTest#verifyCreateAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">tests.AccountTest#verifyEditAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">tests.AccountTest#verifyInvalidCustomerIdAccountCreation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Fund Transfer Tests</h2><h3 id="m17">tests.FundTransferTest#verifyBalanceAfterTransfer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">tests.FundTransferTest#verifyFundTransferSuccess</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">tests.FundTransferTest#verifyInvalidPayeeTransfer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

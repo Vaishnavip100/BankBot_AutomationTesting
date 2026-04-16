@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="0" total="20" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-16T19:14:27 IST" name="Automation Suite" finished-at="2026-04-16T19:18:11 IST" duration-ms="223692">
+    <groups>
+    </groups>
+    <test started-at="2026-04-16T19:14:27 IST" name="Login and Validation" finished-at="2026-04-16T19:15:16 IST" duration-ms="48622">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@7d322cad]" started-at="2026-04-16T19:14:29 IST" name="setUp" finished-at="2026-04-16T19:14:36 IST" duration-ms="7012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@669513d8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@7d322cad]" started-at="2026-04-16T19:14:36 IST" name="loginTest" data-provider="loginData" finished-at="2026-04-16T19:14:40 IST" duration-ms="4301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr659075]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sagypYs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[success]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@7d322cad]" started-at="2026-04-16T19:14:40 IST" name="tearDown" finished-at="2026-04-16T19:14:42 IST" duration-ms="1378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@7d322cad]" started-at="2026-04-16T19:14:42 IST" name="setUp" finished-at="2026-04-16T19:14:47 IST" duration-ms="5230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@669513d8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@7d322cad]" started-at="2026-04-16T19:14:47 IST" name="loginTest" data-provider="loginData" finished-at="2026-04-16T19:14:49 IST" duration-ms="1819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongPass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[error]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@7d322cad]" started-at="2026-04-16T19:14:49 IST" name="tearDown" finished-at="2026-04-16T19:14:49 IST" duration-ms="849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@7d322cad]" started-at="2026-04-16T19:14:49 IST" name="setUp" finished-at="2026-04-16T19:14:53 IST" duration-ms="3687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@669513d8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@7d322cad]" started-at="2026-04-16T19:14:53 IST" name="loginTest" data-provider="loginData" finished-at="2026-04-16T19:14:55 IST" duration-ms="1728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[both fields empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@7d322cad]" started-at="2026-04-16T19:14:55 IST" name="tearDown" finished-at="2026-04-16T19:14:55 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@7d322cad]" started-at="2026-04-16T19:14:55 IST" name="setUp" finished-at="2026-04-16T19:14:57 IST" duration-ms="1781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@669513d8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@7d322cad]" started-at="2026-04-16T19:14:57 IST" name="loginTest" data-provider="loginData" finished-at="2026-04-16T19:15:09 IST" duration-ms="11751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr123456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@7d322cad]" started-at="2026-04-16T19:15:09 IST" name="tearDown" finished-at="2026-04-16T19:15:09 IST" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@7d322cad]" started-at="2026-04-16T19:15:09 IST" name="setUp" finished-at="2026-04-16T19:15:13 IST" duration-ms="3193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@669513d8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoutRedirectsToLoginPage()[pri:0, instance:tests.LoginTest@7d322cad]" started-at="2026-04-16T19:15:13 IST" name="verifyLogoutRedirectsToLoginPage" finished-at="2026-04-16T19:15:16 IST" duration-ms="3083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutRedirectsToLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@7d322cad]" started-at="2026-04-16T19:15:16 IST" name="tearDown" finished-at="2026-04-16T19:15:16 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.ValidationTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.ValidationTest@41488b16]" started-at="2026-04-16T19:14:27 IST" name="setUp" finished-at="2026-04-16T19:14:37 IST" duration-ms="10038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@669513d8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyFieldValidation()[pri:0, instance:tests.ValidationTest@41488b16]" started-at="2026-04-16T19:14:37 IST" name="verifyEmptyFieldValidation" finished-at="2026-04-16T19:14:41 IST" duration-ms="3956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyFieldValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ValidationTest@41488b16]" started-at="2026-04-16T19:14:41 IST" name="tearDown" finished-at="2026-04-16T19:14:42 IST" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.ValidationTest@41488b16]" started-at="2026-04-16T19:14:42 IST" name="setUp" finished-at="2026-04-16T19:14:46 IST" duration-ms="4015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@669513d8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFutureDateValidation()[pri:0, instance:tests.ValidationTest@41488b16]" started-at="2026-04-16T19:14:46 IST" name="verifyFutureDateValidation" finished-at="2026-04-16T19:15:02 IST" duration-ms="15395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFutureDateValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ValidationTest@41488b16]" started-at="2026-04-16T19:15:02 IST" name="tearDown" finished-at="2026-04-16T19:15:02 IST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.ValidationTest@41488b16]" started-at="2026-04-16T19:15:02 IST" name="setUp" finished-at="2026-04-16T19:15:09 IST" duration-ms="6921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@669513d8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNonNumericValidation()[pri:0, instance:tests.ValidationTest@41488b16]" started-at="2026-04-16T19:15:09 IST" name="verifyNonNumericValidation" finished-at="2026-04-16T19:15:13 IST" duration-ms="3342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNonNumericValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ValidationTest@41488b16]" started-at="2026-04-16T19:15:13 IST" name="tearDown" finished-at="2026-04-16T19:15:13 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ValidationTest -->
+    </test> <!-- Login and Validation -->
+    <test started-at="2026-04-16T19:15:16 IST" name="Customer Tests" finished-at="2026-04-16T19:16:00 IST" duration-ms="43913">
+      <class name="tests.CustomerTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.CustomerTest@75c56eb9]" started-at="2026-04-16T19:15:16 IST" name="setUp" finished-at="2026-04-16T19:15:19 IST" duration-ms="2573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a1d593e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="verifyCreateCustomer()[pri:0, instance:tests.CustomerTest@75c56eb9]" started-at="2026-04-16T19:15:19 IST" name="verifyCreateCustomer" finished-at="2026-04-16T19:15:33 IST" duration-ms="14448" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //p[@class='heading3'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\91996\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64651}, goog:processID: 22976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64651/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1020cefba1de6a36080d8521d0edd56d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[@class='heading3'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\91996\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64651}, goog:processID: 22976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64651/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1020cefba1de6a36080d8521d0edd56d
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at base.BasePage.waitForVisibility(BasePage.java:21)
+at base.BasePage.getText(BasePage.java:39)
+at pages.NewCustomerPage.isCustomerCreated(NewCustomerPage.java:59)
+at tests.CustomerTest.verifyCreateCustomer(CustomerTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CustomerTest@75c56eb9]" started-at="2026-04-16T19:15:33 IST" name="tearDown" finished-at="2026-04-16T19:15:34 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.CustomerTest@75c56eb9]" started-at="2026-04-16T19:15:34 IST" name="setUp" finished-at="2026-04-16T19:15:35 IST" duration-ms="1545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a1d593e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCreateCustomer()[pri:0, instance:tests.CustomerTest@75c56eb9]" started-at="2026-04-16T19:15:35 IST" name="verifyCreateCustomer" finished-at="2026-04-16T19:15:40 IST" duration-ms="4981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CustomerTest@75c56eb9]" started-at="2026-04-16T19:15:40 IST" name="tearDown" finished-at="2026-04-16T19:15:41 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.CustomerTest@75c56eb9]" started-at="2026-04-16T19:15:41 IST" name="setUp" finished-at="2026-04-16T19:15:43 IST" duration-ms="2817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a1d593e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDuplicateEmailError()[pri:0, instance:tests.CustomerTest@75c56eb9]" started-at="2026-04-16T19:15:43 IST" name="verifyDuplicateEmailError" finished-at="2026-04-16T19:15:50 IST" duration-ms="7024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDuplicateEmailError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CustomerTest@75c56eb9]" started-at="2026-04-16T19:15:50 IST" name="tearDown" finished-at="2026-04-16T19:15:51 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.CustomerTest@75c56eb9]" started-at="2026-04-16T19:15:51 IST" name="setUp" finished-at="2026-04-16T19:15:53 IST" duration-ms="2503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a1d593e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEditCustomer()[pri:0, instance:tests.CustomerTest@75c56eb9]" started-at="2026-04-16T19:15:53 IST" name="verifyEditCustomer" finished-at="2026-04-16T19:16:00 IST" duration-ms="6868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CustomerTest@75c56eb9]" started-at="2026-04-16T19:16:00 IST" name="tearDown" finished-at="2026-04-16T19:16:00 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CustomerTest -->
+    </test> <!-- Customer Tests -->
+    <test started-at="2026-04-16T19:16:00 IST" name="Account Tests" finished-at="2026-04-16T19:17:27 IST" duration-ms="86872">
+      <class name="tests.AccountTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.AccountTest@3eb91815]" started-at="2026-04-16T19:16:00 IST" name="setUp" finished-at="2026-04-16T19:16:04 IST" duration-ms="3490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCreateAccount()[pri:0, instance:tests.AccountTest@3eb91815]" started-at="2026-04-16T19:16:04 IST" name="verifyCreateAccount" finished-at="2026-04-16T19:16:10 IST" duration-ms="6490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountTest@3eb91815]" started-at="2026-04-16T19:16:10 IST" name="tearDown" finished-at="2026-04-16T19:16:11 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.AccountTest@3eb91815]" started-at="2026-04-16T19:16:11 IST" name="setUp" finished-at="2026-04-16T19:16:14 IST" duration-ms="2966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="verifyEditAccount()[pri:0, instance:tests.AccountTest@3eb91815]" started-at="2026-04-16T19:16:14 IST" name="verifyEditAccount" finished-at="2026-04-16T19:16:27 IST" duration-ms="13528" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //td[text()='Customer ID']/following-sibling::td (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\91996\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50408}, goog:processID: 22976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50408/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81cb77527bba99bfe0c92bebb627bb06]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //td[text()='Customer ID']/following-sibling::td (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\91996\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50408}, goog:processID: 22976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50408/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81cb77527bba99bfe0c92bebb627bb06
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at base.BasePage.waitForVisibility(BasePage.java:21)
+at base.BasePage.getText(BasePage.java:39)
+at pages.NewCustomerPage.getCustomerId(NewCustomerPage.java:63)
+at tests.AccountTest.verifyEditAccount(AccountTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountTest@3eb91815]" started-at="2026-04-16T19:16:27 IST" name="tearDown" finished-at="2026-04-16T19:16:27 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.AccountTest@3eb91815]" started-at="2026-04-16T19:16:27 IST" name="setUp" finished-at="2026-04-16T19:16:29 IST" duration-ms="1832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="verifyEditAccount()[pri:0, instance:tests.AccountTest@3eb91815]" started-at="2026-04-16T19:16:29 IST" name="verifyEditAccount" finished-at="2026-04-16T19:16:44 IST" duration-ms="14547" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //td[text()='Customer ID']/following-sibling::td (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\91996\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61801}, goog:processID: 8128, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61801/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a0b622b1a64bb7e9d4bb71d4f1f735b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //td[text()='Customer ID']/following-sibling::td (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\91996\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61801}, goog:processID: 8128, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61801/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a0b622b1a64bb7e9d4bb71d4f1f735b
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at base.BasePage.waitForVisibility(BasePage.java:21)
+at base.BasePage.getText(BasePage.java:39)
+at pages.NewCustomerPage.getCustomerId(NewCustomerPage.java:63)
+at tests.AccountTest.verifyEditAccount(AccountTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountTest@3eb91815]" started-at="2026-04-16T19:16:44 IST" name="tearDown" finished-at="2026-04-16T19:16:44 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.AccountTest@3eb91815]" started-at="2026-04-16T19:16:44 IST" name="setUp" finished-at="2026-04-16T19:16:47 IST" duration-ms="2600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEditAccount()[pri:0, instance:tests.AccountTest@3eb91815]" started-at="2026-04-16T19:16:47 IST" name="verifyEditAccount" finished-at="2026-04-16T19:17:21 IST" duration-ms="34306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountTest@3eb91815]" started-at="2026-04-16T19:17:21 IST" name="tearDown" finished-at="2026-04-16T19:17:21 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.AccountTest@3eb91815]" started-at="2026-04-16T19:17:21 IST" name="setUp" finished-at="2026-04-16T19:17:24 IST" duration-ms="2360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidCustomerIdAccountCreation()[pri:0, instance:tests.AccountTest@3eb91815]" started-at="2026-04-16T19:17:24 IST" name="verifyInvalidCustomerIdAccountCreation" finished-at="2026-04-16T19:17:27 IST" duration-ms="3365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidCustomerIdAccountCreation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountTest@3eb91815]" started-at="2026-04-16T19:17:27 IST" name="tearDown" finished-at="2026-04-16T19:17:27 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AccountTest -->
+    </test> <!-- Account Tests -->
+    <test started-at="2026-04-16T19:17:27 IST" name="Fund Transfer Tests" finished-at="2026-04-16T19:18:11 IST" duration-ms="43802">
+      <class name="tests.FundTransferTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.FundTransferTest@4bbf6d0e]" started-at="2026-04-16T19:17:27 IST" name="setUp" finished-at="2026-04-16T19:17:30 IST" duration-ms="2320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@361c294e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyBalanceAfterTransfer()[pri:0, instance:tests.FundTransferTest@4bbf6d0e]" started-at="2026-04-16T19:17:30 IST" name="verifyBalanceAfterTransfer" finished-at="2026-04-16T19:17:49 IST" duration-ms="19716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBalanceAfterTransfer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FundTransferTest@4bbf6d0e]" started-at="2026-04-16T19:17:49 IST" name="tearDown" finished-at="2026-04-16T19:17:50 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.FundTransferTest@4bbf6d0e]" started-at="2026-04-16T19:17:50 IST" name="setUp" finished-at="2026-04-16T19:17:52 IST" duration-ms="2645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@361c294e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFundTransferSuccess()[pri:0, instance:tests.FundTransferTest@4bbf6d0e]" started-at="2026-04-16T19:17:52 IST" name="verifyFundTransferSuccess" finished-at="2026-04-16T19:18:05 IST" duration-ms="12400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFundTransferSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FundTransferTest@4bbf6d0e]" started-at="2026-04-16T19:18:05 IST" name="tearDown" finished-at="2026-04-16T19:18:05 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.FundTransferTest@4bbf6d0e]" started-at="2026-04-16T19:18:05 IST" name="setUp" finished-at="2026-04-16T19:18:07 IST" duration-ms="2325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@361c294e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidPayeeTransfer()[pri:0, instance:tests.FundTransferTest@4bbf6d0e]" started-at="2026-04-16T19:18:07 IST" name="verifyInvalidPayeeTransfer" finished-at="2026-04-16T19:18:11 IST" duration-ms="3574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPayeeTransfer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FundTransferTest@4bbf6d0e]" started-at="2026-04-16T19:18:11 IST" name="tearDown" finished-at="2026-04-16T19:18:11 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FundTransferTest -->
+    </test> <!-- Fund Transfer Tests -->
+  </suite> <!-- Automation Suite -->
+</testng-results>

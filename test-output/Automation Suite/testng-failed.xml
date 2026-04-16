@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Automation Suite]">
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+    <listener class-name="listeners.RetryListener"/>
+  </listeners>
+  <test thread-count="2" parallel="classes" name="Fund Transfer Tests(failed)">
+    <classes>
+      <class name="tests.FundTransferTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyBalanceAfterTransfer"/>
+        </methods>
+      </class> <!-- tests.FundTransferTest -->
+    </classes>
+  </test> <!-- Fund Transfer Tests(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->
